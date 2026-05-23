@@ -17,7 +17,7 @@ const Login = () => {
       password === 'rahul@2021'
     ) {
       Cookies.set('jwt_token', 'fitness_app_token', {
-        expires: 7,
+        expires: 30,
       })
 
       navigate('/dashboard')
